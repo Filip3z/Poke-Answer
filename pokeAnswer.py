@@ -2,8 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
-from secret import usr
-from secret import passwd
+from data import usr
+from data import passwd
 from time import sleep
 from random import randint
 
